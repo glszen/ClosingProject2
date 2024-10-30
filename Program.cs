@@ -31,6 +31,8 @@ if (Choise == "1")
     mobilePhone.GetProductName();
 
     mobilePhone.TrLicence = licence;
+
+    mobilePhone.PrintInfo();
 }
 
 else if (Choise == "2")

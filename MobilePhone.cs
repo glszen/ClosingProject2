@@ -14,6 +14,16 @@ namespace ClosingProject2
          
         public bool TrLicence { get; set; } = true;
 
+        public override void PrintInfo()
+        {
+            Console.WriteLine("Production Name: " + ProductionDate);
+            Console.WriteLine("Serial Number: " + SerialNumber);
+            Console.WriteLine("Name: " + Name);
+            Console.WriteLine("Description: " + Description);
+            Console.WriteLine("OperationSystem: " + OperationSystem);
+            Console.WriteLine("TR Licence: " + TrLicence);
+        }
+
         public override void GetProductName()
         {
             Console.WriteLine("Your Phone Name is  --->  Mobile Phone Name is " + Name);

@@ -31,10 +31,22 @@ namespace ClosingProject2
             }
         }
 
+        public override void PrintInfo()
+        {
+            Console.WriteLine("Production Name: " + ProductionDate);
+            Console.WriteLine("Serial Number: " + SerialNumber);
+            Console.WriteLine("Name: " + Name);
+            Console.WriteLine("Description: " +Description);
+            Console.WriteLine("OperationSystem: " + OperationSystem);
+            Console.WriteLine("Bluetooth: " + Bluetooth);
+            Console.WriteLine("Usb Port Number: " + _usbportnumber);
+        }
+
         public override void GetProductName()
         {
             Console.WriteLine("Your Computer Name is  --->  Computer Name is " + Name);
         }
+
 
 
 
